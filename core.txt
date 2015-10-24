@@ -1,0 +1,54 @@
+//cass
+window.cass={};
+cass.apply=function(url){
+
+};
+
+//I have almost no idea of how the priority of selectors are calculated in a
+//css but this should be the same.
+cass._sortrules=function(){
+ 
+};
+cass._processrule=function(sel,exp){
+ for(var s=0;s<sel.length;s++){
+  
+ }
+};
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+//-------------------------------------------------------------- cass parser
+cass._parsexp=function(){var c=new CASS();
+
+}
+
+//frq=hrz(num)||0-127m(midi)||A#(international)||do2(temp)
+
+
+cass.frqexp=function(frqexp){
+  if(frqexp.indexOf('hz')>-1){return parseInt(frqexp.replace('hz',''))}
+  if(frqexp.charAt(frqexp.length-1)=='m'){return parseInt(frqexp.replace('m',''))}var x;
+  for(x=0;x<7;x++){if(frqexp.indexOf(cass.frqmap_ita[x])>-1){return cass.frqexp_exp(x+1,frqexp.replace(cass.frqmap_ita[x],''));}}
+  for(x=0;x<7;x++){if(frqexp.indexOf(cass.frqmap_int[x])>-1){return cass.frqexp_exp(x+1,frqexp.replace(cass.frqmap_int[x],''));}}
+};
+cass.frqmap_ita=['do','re','mi','fa','sol','la','si'];
+cass.frqmap_int=['c','d','e','f','g','a','b'];
+cass.frqexp_exp(frq,xp,_scale){if(!_scale){_scale=7}
+  if(xp.indexOf('#')>-1){frq+=HALFTONE;xp=xp.replace('#','')}
+  if(xp.indexOf('b')>-1){frq-=HALFTONE;xp=xp.replace('#','')}
+  if(xp.trim()==''){xp=parseInt(xp);frq=frq+(BASESPAN*xp);}
+  return frq;};
+
+
+var CASS={key:'audio',value:false,childs:[
+	   {key:'buffer',value:false,childs:[
+	     {key:'source',value:false,childs:false},
+	     {key:'attachment',value:false,childs:false},
+	     {key:'direction',value:false,childs:false},
+	]},
+      filter:{key:filter}
+}]};
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+//------------------------------------------- cass webaudio context (engine)
+cass._initcontext=function(){};
+cass._loadbuffer=function(){};
