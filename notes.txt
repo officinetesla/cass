@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><title>TEST</title>
+<style>
+#miotest{display:block;position:absolute;transition:background-color 1s cubic-bezier(0.890, 0.585, 0.535, 0.760)}
+
+.iniziale{top:0px;left:0px;background-color:#F00; border:2px solid black;border-top-style:dashed;}
+.iniziale:hover{top:0px;left:0px;background-color:#0F0;}
+.finale{top:500px;left:500px;background-color:rgba(0,0,255,0.5);")}
+
+</style>
+</head>
+<body>
+<button onclick="document.getElementById('miotest').classList.add('finale')">CLICCA</button>
+	<div id="miotest" class="iniziale">HELLO PIGOLA</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<a href="http://www.google.com" target="_blank">link here</a>
+<!--
+LINK HTML
+A=anchor
+
+ELEMENTI INPUT HTML
+-FORM
+-INPUT type=submit
+-INPUT type=text
+-INPUT type=checkbox
+-INPUT type=radio
+-INPUT type=date
+-INPUT type=button
+-INPUT type=date-time
+-TEXTAREA
+
+-SELECT
+
+CASS PROPERTIES
+-audio
+-audio-buffer:COMPISITE
+-audio-buffer-source:url('')|tooth(frq,amp,ph)|...
+-audio-buffer-attachment:url('')|tooth(frq,amp,ph)|...
+-audio-buffer-direction:normal|reverse|initial|inherit
+
+-audio-filter:COMPOSITE
+
+
+CASS BASEDATATYPES
+frq=hrz(num)||do2(temp)||0-127m(midi)||A#(international)||^N    1^12-7				SUPPORTS:transition-
+
+-->
+
+	</body></html>
