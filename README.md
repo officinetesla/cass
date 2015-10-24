@@ -4,7 +4,7 @@ this is what is coming soon....<br/>
 
 CASS PROPERTIES
 -audio<br/>
--audio-buffer:COMPISITE<br/>
+-audio-buffer:COMPOSITE<br/>
 -audio-buffer-source:url('')|tooth(frq,amp,ph)|...<br/>
 -audio-buffer-attachment:url('')|tooth(frq,amp,ph)|...<br/>
 -audio-buffer-direction:normal|reverse|initial|inherit<br/>
