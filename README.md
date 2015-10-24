@@ -1,14 +1,14 @@
 # cass
 cascading audio style sheets<br/>
 this is what is coming soon....<br/>
-
-CASS PROPERTIES
+<br/><br/>
+CASS PROPERTIES<br/>
 -audio<br/>
 -audio-buffer:COMPOSITE<br/>
 -audio-buffer-source:url('')|tooth(frq,amp,ph)|...<br/>
 -audio-buffer-attachment:url('')|tooth(frq,amp,ph)|...<br/>
 -audio-buffer-direction:normal|reverse|initial|inherit<br/>
-...<br/>...<br/><br/>
+...<br/><br/>
 -audio-filter:COMPOSITE<br/>
 ...<br/><br/><br/>
 CASS BASEDATATYPES<br/>
