@@ -27,6 +27,7 @@ ELEMENTI INPUT HTML
 -INPUT type=date
 -INPUT type=button
 -INPUT type=date-time
+
 -TEXTAREA
 
 -SELECT
