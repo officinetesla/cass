@@ -1,6 +1,7 @@
 # cass
 cascading audio style sheets<br/>
 this is what is coming soon....<br/>
+and it's pretty useful for defining a custom style to the huge new frontiers that audio feedback have to reach when browsing websites in a panel inside a virtual / augmented reality<br/>
 <br/><br/>
 CASS PROPERTIES<br/>
 -audio<br/>
